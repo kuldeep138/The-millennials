@@ -1,0 +1,566 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.container {
+    margin: 0 7%;
+}
+
+
+.container__nav {
+    display: flex;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.brand-logo {
+    margin-right: 60px;
+    margin-top: 15px;
+}
+
+.brand-logo img {
+    width: 104px;
+    height: 105px;
+}
+
+
+/* ........................................top-nav.................................................... */
+
+.nav-bar {
+    width: 100%;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-button {
+    font-size: 17px;
+    color: #ffff;
+    background-color: #5b63b7;
+    padding: 6px 40px 6px 15px;
+}
+
+.nav-top__content {
+    margin-left: -150px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.arrow-button {
+    display: inline;
+
+}
+
+.button-left {
+    border: solid #ebebeb;
+    color: #ebebeb;
+    padding: 3px 5px;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.button-right {
+    border: solid #ebebeb;
+    color: #ebebeb;
+    background-color: #5b63b7;
+    padding: 3px 8px;
+    margin-right: 0px;
+    margin-left: 6px;
+}
+
+/* ........................................top-nav closed.................................................... */
+
+/* ................................................main-nav.......................................... */
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px auto;
+}
+
+.main-nav ul {
+    list-style: none;
+}
+
+.main-nav ul li.india a {
+    color: #5b63b7;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 23px;
+}
+
+
+
+.main-nav ul li a {
+    color: black;
+    font-weight: 600;
+}
+
+.smedia-icon a {
+    margin-right: 14px;
+    font-size: 33px;
+    color: black;
+}
+
+/* ................................................main.............................................. */
+
+.status_covid {
+    display: flex;
+    justify-content: center;
+}
+
+.status_covid p {
+    vertical-align: bottom;
+    font-weight: 100;
+}
+
+.india_1 {
+    color: #5b63b7;
+}
+
+.COVID-19 {
+    font-weight: 300;
+    margin-left: 8px;
+}
+
+/* ..................................updates........................... */
+
+.updates {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px auto;
+    align-items: center;
+}
+
+.updates a {
+    padding: 15px 40px;
+    color: white;
+    background-color: #5b63b7;
+    border-radius: 27px;
+    font-size: 16px;
+}
+
+.donate {
+    font-weight: 400;
+}
+
+.date h3 {
+    font-size: 31px;
+}
+
+.date p {
+
+    font-size: 12px;
+
+    margin-top: 10px;
+
+    font-weight: 500;
+
+    text-align: center;
+}
+
+.updates__cases-data {
+    display: flex;
+    align-items: center;
+}
+
+.cases__content h3 {
+    font-size: 40px;
+}
+
+.cases__content p {
+    font-size: 13px;
+
+}
+
+.cases__content {
+    margin-left: 90px;
+}
+
+.caces h3 {
+    color: #5b63b7;
+}
+
+.death h3 {
+    color: #ff4e4e;
+}
+
+.active-cases h3 {
+    color: #51c057;
+}
+
+/* ....................................main banner.......................... */
+
+.main-banner {
+    display: flex;
+    margin: 48px 0px;
+}
+
+.banner__content {
+    position: relative;
+    color: white;
+}
+
+.banner__image img {
+    height: 370px;
+    width: 793px;
+    padding: 17px 17px 17px 0;
+}
+
+.banner__news {
+    position: absolute;
+    top: 61%;
+    left: 60px;
+    right: 0px;
+    transform: translateY(-50%);
+    padding-right: 31px;
+    line-height: 30.5px;
+}
+
+.banner__news span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner__news h4 {
+    font-size: 33px;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+
+.banner__news p {
+    font-size: 14px;
+    font-weight: 300;
+    padding-right: 103px;
+}
+
+/* .................................................................. */
+
+
+
+
+
+
+
+.side-bar-news {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.side-bar-news h4 {
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.side-bar-news span {
+    height: 4px;
+    background: #000;
+    display: inline-block;
+    width: 65px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.side-bar__content {
+    display: flex;
+    margin-top: 15px;
+    margin-right: 49px;
+}
+
+.side-bar__text {
+    padding: 10px 10px;
+}
+
+.side-bar__text span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.side-bar__text span h5 {
+    display: inline-block;
+    color: #5b63b7;
+}
+
+.side-bar__text p {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 350;
+    width: 211px;
+}
+
+/* .......................................main banner closed.................... */
+
+/* ...............................................business-news & most-view......................................... */
+
+.business-most {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.business-news__heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.business-banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.arrow-button-business {
+    display: inline;
+}
+
+.btn-business {
+    border: solid #ebebeb;
+    color: #ebebeb;
+    padding: 3px 5px;
+    background-color: #fff;
+    margin-left: 8px;
+}
+
+.business-news__content img {
+    width: 382px;
+    height: 248px;
+}
+
+.business-news__content span {
+
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.business-news__content h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.most-view {
+    margin-left: 32px;
+}
+
+/* ...............................................business-news & most-view closed......................................... */
+
+/* ..................................TECHNOLOGY-NEWS.................................................... */
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.technology-news{
+    margin: 59px 0px;
+}
+
+.see-all  a{
+
+    border: solid 3px #c0b2b2;
+    color: #c0b2b2;
+    padding: 3px 17px;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.see-all1{
+    margin: 17px 0px;
+}
+
+.technology-news__content2{
+    margin: 16px 0px;
+}
+
+.technology-news__content1{
+    margin: 16px 0px;
+}
+
+.copa {
+    padding: 0px 5px 0 16px;
+}
+.copa p{
+    font-size: 12px;
+    color: #c7c0c0;
+    font-weight: 300;
+    padding: 12px 0px 6px;
+}
+
+.copa h4{
+    font-size: 21px;
+    padding-right: 31px;
+}
+
+.copa h5{
+    font-size: 14px;
+    padding-right: 22px;
+    font-weight: 300;
+    margin: 8px 0px 20px;
+}
+
+.copa a{
+    font-size: 17px;
+    padding: 6px 13px;
+    border: solid #c7c0c0;
+    color: #c7c0c0;
+    margin-top: 20px;
+}
+
+/* ........................................entertainment...................................... */
+
+.entertainment{
+    margin: -12px 0px 84px;
+}
+/* ...........................................footer..................................................... */
+
+.footer{
+    background-color: #5b63b7;
+    margin-top: 140px;
+}
+
+.footer__content {
+    padding-top: 47px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-common-content{
+        margin-bottom: 27px;
+        color: white;
+        font-size: 22px;
+        font-weight: 300;
+}
+
+.follow__social-media img {
+    margin: 14px 13px 14px 0;
+}
+
+.new-with-us{
+    color: white;
+    font-size: 13px;
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.contact__text {
+    display: flex;
+    line-height: 1.5;
+    color: white;
+}
+
+.contact__text h4{
+    font-size: 15px;
+    margin-right: 8px;
+    font-weight: 400;
+}
+
+.contact__text span{
+    font-size: 15px;
+    font-weight: 200;
+    padding-left: 10px;
+}
+
+.recent__content{
+    display: flex;
+    color: white;
+}
+
+.content__text {
+    width: 200px;
+    padding: 0 9px;
+}
+.content__text h4{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.content__text date{
+    font-size: 9px;
+    font-weight: 100;
+}
+
+.footer__recent-news hr{
+    margin: 14px 0px;
+}
+
+.content__margin{
+    margin-top: 20px;
+}
+
+.footer__hr{
+    padding: 33px 0px;
+    
+}
+
+.footer__copyright{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 200;
+    padding-bottom: 35px;
+    margin-top: 5px;
+}
+
+.email-box{
+    margin: 50px 0px 0;
+    background-color: #fff;
+}
+
+.email-box img{
+    width: 40px;
+    height: 38px;
+    position: absolute;
+    
+}
+
+#email{
+    width: 291px;
+    height: 41px;
+    border-radius: 6px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.news-letter__content p{
+    color: #fff;
+    font-size: 12px;
+    margin: 18px 0;
+    font-weight: 200; 
+}
+
+.news-letter__content h4{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 27px 0;;
+}
+
+.news-letter__image img{
+    margin-right: 7px;
+}
+
+ 
